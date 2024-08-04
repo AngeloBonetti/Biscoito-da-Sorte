@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fontes */
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  /*.dm-sans-<uniquifier> {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  /*.dancing-script-<uniquifier> {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+:root{
+    font-size: 62.5%;
+    --cor-body-linar: #190361;
+    --cor-body-linear2: #BB00FF;
+    --cor-branca: #FFFFFF;
+    --cor-h1-p: #34355B;
+    --cor-fundo-p: #E4EDF1;
+    --cor-button-fim: #FF9500;
+    --cor-p-fim: #000000;
+}
+
+.principal{
+    display: none;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+
+p, button{
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--cor-body-linar) 0%, var(--cor-body-linear2) 100%);
+}
+
+main{
+    width: min(428px, 90%);
+    background-color: var(--cor-branca);
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 20px 50px black;
+}
+
+/* Inicio */
+
+.inicio{
+
+    padding: 4.8rem 6.4rem 6.4rem;    
+    
+}
+
+h1{
+    font-size: 2.4rem;
+    color: var(--cor-h1-p);
+}
+
+p{
+    color: var(--cor-h1-p);
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+}
+
+.inicio button{
+    padding-top: 2rem;
+    border: none;
+    background-color: var(--cor-branca);
+    cursor: pointer;
+    
+    
+}
+
+.inicio button:hover{
+    animation: rotate .1s infinite;
+    
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(3deg);
+    }
+  
+}
+
+.inicio button img{
+    width: 100%;
+}
+
+/* Fim */
+
+.fim{
+    padding: 4.8rem 6.4rem 6.4rem;    
+  
+}
+
+.fim p{
+    margin-top: 2.7rem;
+    padding: 1rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    color: var(--cor-p-fim);
+    background-color: var(--cor-fundo-p); 
+    box-shadow: 2px 2px 2px #5555559d;
+}
+
+.fim button{
+    background-color: var(--cor-button-fim);
+    border: none;
+    color: var(--cor-branca);
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.fim img{
+    width: 100%;
+}
