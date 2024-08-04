@@ -36,3 +36,8 @@
 - Manipulação da DOM para exibir a sorte do dia
 - Utilização da biblioteca Math() para gerar números aleatórios
 - Implementação de funções *callback* para interatividade
+
+
+## Projeto Pronto
+
+[Biscoito da Sorte](https://angelobonetti.github.io/Biscoito-da-Sorte/)
